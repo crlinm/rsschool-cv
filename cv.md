@@ -8,7 +8,7 @@
 * phone: 8 700 000 0000
 
 ### PROFILE
-I'm interested in 
+I'm interested in ...
 
 ### WORK EXPERIENCE
 + Ecommerce: analyst (Python, SQL, Linux, Docker, GA, YM)
@@ -20,7 +20,7 @@ I'm interested in
 + Git, Github, GitLab, GitHub Actions
 
 ### CODE EXAMPLES
-+ [my github](https://github.com/crlinm?tab=repositories)
+
 
 ### COURSES
 + Stepik: Python, Docker, Statistics
@@ -30,9 +30,9 @@ I'm interested in
 ### EDUCATION
 + SUSU, specialist
 
-### LANGUAGE
+### LANGUAGES
 + English - Intermediate (B1)
-+ Russain - Native
++ Russian - Native
 + French - Beginner (A1)
 
 
