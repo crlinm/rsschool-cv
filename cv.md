@@ -2,7 +2,10 @@
 #### JUNIOR DEVELOPER
 
 ### DETAILS
-
+* email: email@gmail.com
+* github: https://github.com/crlinm
+* telegram: t.me/telegram
+* phone: 8 700 000 0000
 
 ### PROFILE
 I'm interested in 
