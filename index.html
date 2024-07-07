@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#language">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Alina M</h1>
+        <img 
+        src="img/photo_tikhon.jpeg" 
+        alt="Photo"
+        width="200"
+        >
+        <h3>JUNIOR DEVELOPER</h3>
+        <h2 id="contacts">CONTACTS</h2> 
+        <ul>
+            <li>email: email@gmail.com</li>
+            <li>github: https://github.com/crlinm</li>
+            <li>telegram: t.me/telegram</li>
+            <li>phone: 8 700 000 0000</li>
+        </ul>
+        <h2 id="about">About me</h2>
+        I'm interested in ...
+
+        <h2>WORK EXPERIENCE</h2>
+        Ecommerce: analyst (Python, SQL, Linux, Docker, GA, YM)
+
+        <h2 id="skills">SKILLS</h2>
+        <ul>
+            <li>Python, base Flask, Sanic, FastApi, Django</li>
+            <li>SQL (PostgreSQL, MySQL)</li>
+            <li>Linux, Docker, Bash</li>
+            <li>Git, Github, GitLab, GitHub Actions</li>
+        </ul>
+
+        <h2 id="code">CODE EXAMPLES</h2>
+        <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">
+            Leetcode Solution: [3. Longest Substring Without Repeating Characters]
+        </a>
+
+        <code>
+        class Solution:
+            def lengthOfLongestSubstring(self, s: str) -> int:
+                mem, left, res = set(), 0, 0
+
+                for right, symbol in enumerate(s):
+                    while symbol in mem:
+                        mem.remove(s[left])
+                        left += 1
+                    mem.add(symbol)
+
+                    res = max(res, right - left + 1)
+                return res
+        </code>
+
+        <h2 id="projects">PROJECTS</h2>
+        <a href="https://github.com/crlinm?tab=repositories" target="_blank">my github</a>
+
+        <h2>COURSES</h2>
+        <ul>
+            <li>Stepik: Python, Docker, Statistics</li>
+            <li>Napoleon IT School: Junior Backend Dev.Python, Project & Product Management Course</li>
+            <li>Redrover: QA Automation Testing (Python)</li>
+        </ul>
+
+        <h2 id="education">EDUCATION</h2>
+        SUSU, specialist
+
+        <h2 id="language">LANGUAGES</h2>
+        <ul>
+            <li>English - Intermediate (B1)</li>
+            <li>Russian - Native</li>
+            <li>French - Beginner (A1)</li>
+        </ul>
+
+    </main>
+    <footer>
+            <p>©2024
+            <a href="https://github.com/crlinm" target="_blank">My github</a>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img 
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/cv/rs-school-logo.svg" 
+                    alt="RS School"
+                    width="66"
+                >
+            </a>
+            </p>
+    </footer>
+</div>
+</body>
+</html>
