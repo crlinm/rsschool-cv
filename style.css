@@ -1,7 +1,21 @@
 p {
     font-size: 16px
 }
-
 h1 {
     font-size: 32px
+}
+.page{
+    margin-inline: auto;
+    max-width: 700px;
+}
+footer{
+    text-align: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 6px;
+}
+code{
+    white-space: pre;
 }
